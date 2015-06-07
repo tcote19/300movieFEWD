@@ -1,0 +1,107 @@
+
+body {
+  background-color: black;
+  color: gray;
+  font-weight: 300;
+}
+h2 {
+  text-align: center;
+}
+/* Nav Header */
+#nav-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 47px;
+  background-color: rgba(0, 0, 0, .5);
+  z-index: 900;
+}
+#nav-header > span {
+  font-family: sans-serif;
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+  margin: 14px 10px;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+}
+#nav-header a, a:visited {
+  color: white;
+  text-decoration: none;
+}
+#nav-header a.active {
+  font-weight: bold;
+}
+/* Hero poster */
+#hero {
+  background-image: url(../assets/300-hero.jpg);
+  height: 220px;
+  background-size: cover;
+}
+.menu {}
+/* Text narrative */
+.narrative {
+  margin-top: 25px;
+  font-size: 16px;
+}
+/* YouTube player iFrame */
+#ytplayer {
+  margin-top: 25px;
+  width: 100%;
+  height: 310px;
+}
+/*movie specs/details */
+.details {
+  margin-top: 3px;
+  font-size: 16px;
+}
+/* Horizontal image gallery */
+.gallery {
+  display: block;
+  max-width: 1140px;
+  margin: 25px auto;
+  text-align: center;
+}
+.gallery {
+  padding: 0;
+  overflow-x: scroll;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+.gallery img {
+  width: 90%;
+}
+.gallery::-webkit-scrollbar { 
+  display: none; 
+}
+.gallery li {
+  display: inline;
+  list-style-type: none;
+}
+/* Actors/Actresses */
+#cast-section {
+  font-weight: 600;
+}
+.stars img {
+  height:60%;
+  width: 60%;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+.info {
+  font-size: 15px;
+  margin-top: 12%;
+  margin-bottom: 8%;
+  margin-left: 0px; 
+}
+/* Recommended Movies */
+.recommended {
+  text-align: center;
+  margin
+}
+.recommended img {
+  height: 60%;
+  width: 60%;
+  margin-top: 15px;
+}
+
